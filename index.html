@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Personal</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gradient-to-b from-purple-900 to-white text-gray-900 font-sans">
+
+  <!-- nav-->
+  <header class="bg-purple-800 text-white py-4 sticky top-0 z-50 shadow-md">
+    <nav class="container mx-auto flex justify-center space-x-8 text-lg">
+      <a href="#presentacion" class="hover:text-purple-300 transition flex items-center gap-1">Inicio</a>
+      <a href="#experiencia" class="hover:text-purple-300 transition flex items-center gap-1"> Experiencia</a>
+      <a href="#habilidades" class="hover:text-purple-300 transition flex items-center gap-1"> Habilidades</a>
+      <a href="#proyectos" class="hover:text-purple-300 transition flex items-center gap-1">Proyectos</a>
+      <a href="#contacto" class="hover:text-purple-300 transition flex items-center gap-1">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- presentación -->
+<section id="presentacion" class="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8 px-6">
+  <img src="img/fotoperfil.jpg" alt="foto perfil" class="rounded-full border-4 border-purple-500 shadow-lg animate-fadeIn">
+  <div class="animate-slideIn">
+    <h1 class="text-6xl font-extrabold mb-2 bg-gradient-to-r from-pink-500 via-yellow-400 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">
+      MATIAS GONZALEZ
+    </h1>
+    <h2 class="text-3xl text-white mb-6">Desarrollador Web Junior</h2>
+    <ul class="text-lg leading-relaxed list-disc list-inside max-w-xl">
+      <li class="text-white">Me gusta crear interfaces limpias y funcionales.</li>
+      <li class="text-white">Aprendo y aplico nuevas tecnologías en proyectos.</li>
+      <li class="text-white">Enfocado en desarrollo web full-stack.</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- experiencia -->
+<section id="experiencia" class="bg-white text-purple-800 py-12 px-6">
+  <h2 class="text-4xl font-bold text-center mb-12">Experiencia</h2>
+  <div class="max-w-4xl mx-auto space-y-6">
+    <div class="p-4 rounded-lg shadow-lg bg-gradient-to-r from-purple-100 to-purple-50 hover:shadow-2xl transition transform hover:scale-105">
+      <h3 class="text-xl font-semibold">Estudiante de Licenciatura en sistemas de informacion</h3>
+      <span class="text-gray-500">2023 - Presente</span>
+      <p class="text-base mt-1">Con interés en desarrollo de software y gestión de datos. Me apasiona resolver problemas mediante tecnología y aprender nuevas herramientas para crear soluciones eficientes.</p>
+    </div>
+    <div class="p-4 rounded-lg shadow-lg bg-gradient-to-r from-purple-100 to-purple-50 hover:shadow-2xl transition transform hover:scale-105">
+      <h3 class="text-xl font-semibold">Desarrolo web</h3>
+      <span class="text-gray-500">2025-Presente</span>
+      <p class="text-base mt-1">Actualmente estoy realizando un curso de full-stack</p>
+    </div>
+  </div>
+</section>
+
+<!-- habilidades -->
+<section id="habilidades" class="bg-purple-900 text-white py-12 px-6">
+  <h2 class="text-4xl font-bold text-center mb-12">Habilidades</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-center">
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/cmasmas.png" alt="C++" class="w-8 h-8 mb-1">
+      C++
+    </div>
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/HTML.png" alt="html" class="w-8 h-8 mb-1">
+      HTML
+    </div>
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/Tailwind.png" alt="tailwind" class="w-8 h-8 mb-1">
+      Tailwind CSS
+    </div>
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/java.png" alt="java" class="w-8 h-8 mb-1">
+      JavaScript
+    </div>
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/github.png" alt="githubb" class="w-8 h-8 mb-1">
+      Git
+    </div>
+    <div class="p-6 rounded-full bg-gradient-to-br from-purple-700 to-purple-500 shadow-xl hover:scale-105 transition transform flex flex-col items-center justify-center h-24">
+      <img src="img/qt.png" alt="qt" class="w-8 h-8 mb-1">
+      Qt
+    </div>
+  </div>
+</section>
+
+<!-- proyectos mejorados -->
+<section id="proyectos" class="bg-white text-purple-800 py-20 px-6">
+  <h2 class="text-5xl font-bold text-center mb-16">Proyectos</h2>
+
+  <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+    
+    <!-- presentacion tarjeta -->
+    <div class="bg-gradient-to-b from-purple-100 to-purple-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+      <div class="relative group">
+        <img src="img/tarjeta_presentacion.png" alt="TARJETA DE PRESENTACION CURSO" class="w-full h-52 object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold transition">Ver más</div>
+      </div>
+      <div class="p-5">
+        <h3 class="font-bold text-xl mb-2 text-center">Tarjeta Presentación</h3>
+        <p class="text-base text-center mb-4">Tarjeta de presentación para el curso de full-stack</p>
+        <a href="https://matiigz.github.io/tarjeta-presentacion-/" target="_blank" class="block text-center px-4 py-2 bg-purple-600 text-white font-bold rounded hover:bg-purple-800 transition">Ver Proyecto</a>
+      </div>
+    </div>
+
+    <!-- restaurante-->
+    <div class="bg-gradient-to-b from-purple-100 to-purple-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+      <div class="relative group">
+        <img src="img/tp_restaurante.png" alt="Trabajo restaurante" class="w-full h-52 object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold transition">Ver más</div>
+      </div>
+      <div class="p-5">
+        <h3 class="font-bold text-xl mb-2 text-center">Página Web</h3>
+        <p class="text-base text-center mb-4">Página web basada en un restaurante para el curso full-stack</p>
+        <a href="https://matiigz.github.io/tp2/" target="_blank" class="block text-center px-4 py-2 bg-purple-600 text-white font-bold rounded hover:bg-purple-800 transition">Ver Proyecto</a>
+      </div>
+    </div>
+
+    <!--oca juego -->
+    <div class="bg-gradient-to-b from-purple-100 to-purple-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+      <div class="relative group">
+        <img src="img/oca.png" alt="Trabajo de la facultad" class="w-full h-52 object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-lg font-semibold transition">Ver más</div>
+      </div>
+      <div class="p-5">
+        <h3 class="font-bold text-xl mb-2 text-center">Juego Oca</h3>
+        <p class="text-base text-center mb-4">Juego oca, trabajo práctico realizado con compañeros en QT Creator</p>
+        <a href="https://github.com/GoriliGorili/TPoo-Ano2" target="_blank" class="block text-center px-4 py-2 bg-purple-600 text-white font-bold rounded hover:bg-purple-800 transition">Ver Proyecto</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- contacto  -->
+<section id="contacto" class="bg-purple-900 text-white py-16 px-6">
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-6">Hablemos</h2>
+      <p class="text-lg mb-4">
+        Si tenés un proyecto en mente, una propuesta laboral o simplemente querés saludar, 
+        no dudes en escribirme. Respondo lo antes posible.
+      </p>
+      <ul class="space-y-3 text-purple-200">
+        <li class="flex items-center gap-2">
+          📍 <span>Entre Rios, Argentina</span>
+        </li>
+        <li class="flex items-center gap-2">
+           <a href="matiasgonzalezariel@gmail.com" class="hover:text-white transition">matiasgonzalezariel@gmail.com</a>
+        </li>
+        <li class="flex items-center gap-2">
+           <a href="https://www.linkedin.com/in/matias-gonzalez-61283137a/" target="_blank" class="hover:text-white transition">LinkedIn</a>
+        </li>
+        <li class="flex items-center gap-2">
+           <a href="https://github.com/Matiigz" target="_blank" class="hover:text-white transition">Github</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- formulario -->
+    <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full p-3 rounded bg-purple-900 border border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400">
+        <input type="email" placeholder="Correo electronico" class="w-full p-3 rounded bg-purple-900 border border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400">
+        <textarea placeholder="Mensaje" rows="4" class="w-full p-3 rounded bg-purple-900 border border-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+        <button type="submit" class="w-full bg-white text-purple-800 px-6 py-2 rounded font-bold hover:bg-purple-300 transition">Enviar</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+  <footer class="bg-purple-800 text-white py-6 text-center text-lg">
+    <p>© 2025 Matias Gonzalez - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
